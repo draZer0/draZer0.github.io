@@ -8,7 +8,7 @@ html, body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.body {
+body {
   background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
 }
 
@@ -24,6 +24,7 @@ html, body {
   font-size: 18px;
 }
 
+
 .social-links li {
   display: inline-block;
   margin-right: 8px;
@@ -38,8 +39,7 @@ html, body {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.wrapper {
-	background-color: lightgreen;
+.container {
 	max-width: 43%;
 	display: flex;
 	flex-direction: row;
@@ -47,7 +47,6 @@ html, body {
 }
 
 .left, .right {
-	background-color: lightgreen;
 	margin: 5px;
 	max-width: 50%;
 	flex: 1;
