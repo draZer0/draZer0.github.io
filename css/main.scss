@@ -6,10 +6,53 @@
 
 
 .main {
-  margin: 0em auto;
+  margin: 2em auto;
+  width: 50%;
+  padding-top: $gap;
+
+  &__img {
+    max-width: 300px;
+    border-radius: 50% 2%;
+    float: left;
+    padding-right: $gap;
+  }
+
+  &__text {
+    h1 {
+      font-size: 3em;
+    }
+
+    &--span {
+      font-weight: bold;
+      color: $color_nav;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.1em;
+      margin: $gap/3;
+    }
+  }
 }
 
+@media (max-width: 1200px) {
+  .main {
+    width: 75%;
+  }
+}
 
+@media (max-width: 700px) {
+  .main {
+
+    &__img {
+      max-width: 200px;
+      float: none;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
 
 @media (max-width: 600px) {
   .navigation {

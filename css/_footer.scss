@@ -1,9 +1,10 @@
 .footer {
-  position: fixed;
+  position: flex;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
+  margin-top: $gap*2;
 
   &__up {
     background-color: $color_footer2;
