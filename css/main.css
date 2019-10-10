@@ -87,10 +87,6 @@ body {
   color: #ddd;
 }
 
-.main {
-  margin: 0em auto;
-}
-
 .footer {
   position: fixed;
   left: 0;
@@ -130,6 +126,10 @@ body {
 }
 .footer__down__text--span {
   font-weight: bold;
+}
+
+.main {
+  margin: 0em auto;
 }
 
 @media (max-width: 600px) {

@@ -1,0 +1,35 @@
+.navigation {
+  clear: both;
+  overflow: auto;
+  background-color: $color_nav;
+  padding: $gap/2;
+  font-family: 'Quicksand', sans-serif;
+
+  &__logo {
+    float: left;
+    max-height: 50px;
+    padding-left: 20%;
+  }
+
+  &__item {
+    color: #fff;
+    float: right;
+    padding-right: 20%;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    ul li {
+      display: inline-block;
+      padding: $gap/4;
+      font-size: 1.5em;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #ddd;
+      }
+    }
+  }
+}
