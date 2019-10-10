@@ -35,6 +35,10 @@
   }
 }
 
+.work {
+  padding: $gap;
+}
+
 @media (max-width: 1200px) {
   .main {
     width: 75%;

@@ -153,6 +153,10 @@ body {
   margin: 13.3333333333px;
 }
 
+.work {
+  padding: 40px;
+}
+
 @media (max-width: 1200px) {
   .main {
     width: 75%;
