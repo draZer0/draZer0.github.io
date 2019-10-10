@@ -1,0 +1,24 @@
+@import 'reset';
+@import 'var';
+@import 'body';
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: $color_footer;
+  padding-top: $gap/3;
+  padding-bottom: $gap/3;
+
+  &__text {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #fff;
+
+    &--span {
+      font-weight: bold;
+    }
+  }
+} 
