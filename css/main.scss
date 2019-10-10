@@ -20,6 +20,11 @@
     float: right;
     padding-right: 20%;
 
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
     ul li {
       display: inline-block;
       padding: $gap/4;
@@ -81,6 +86,19 @@
       &--span {
         font-weight: bold;
       }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .navigation {
+
+    &__logo {
+      padding: 10px;
+    }
+
+    &__item {
+      display: none;
     }
   }
 }

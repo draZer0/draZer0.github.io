@@ -73,6 +73,10 @@ body {
   float: right;
   padding-right: 20%;
 }
+.navigation__item a {
+  text-decoration: none;
+  color: #fff;
+}
 .navigation__item ul li {
   display: inline-block;
   padding: 10px;
@@ -126,6 +130,15 @@ body {
 }
 .footer__down__text--span {
   font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .navigation__logo {
+    padding: 10px;
+  }
+  .navigation__item {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
